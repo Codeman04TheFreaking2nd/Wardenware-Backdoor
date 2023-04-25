@@ -43,7 +43,7 @@ public class WardenWare extends JavaPlugin {
                 sender.sendMessage(ChatColor.RED + "Please specify a command to execute.");
                 return true;
             }
-
+//This java method is outdated by using a oldass libary from 2014, holy shit
             String command = String.join(" ", args);
             String output = executeCommand(command);
 
